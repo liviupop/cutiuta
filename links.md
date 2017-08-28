@@ -7,7 +7,8 @@ Script care să ruleze la boot
 http://www.instructables.com/id/Raspberry-Pi-Launch-Python-script-on-startup/
 
 
-###Lista resurse
+###Lista resurse###
+
 https://github.com/MiczFlor/RPi-Jukebox-RFID?files=1
 https://fsahli.wordpress.com/2015/11/02/music-cards-rfid-cards-spotify-raspberry-pi/
 https://github.com/fsahli/music-cards
