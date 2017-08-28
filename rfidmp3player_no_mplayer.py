@@ -37,4 +37,4 @@ while continue_reading:
     print "Card read UID: " + strbackData
 
     # Do something (based on card and config file)
-    TagToMplayer(strbackData)
+   # TagToMplayer(strbackData)
