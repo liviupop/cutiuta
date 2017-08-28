@@ -32,10 +32,9 @@ while continue_reading:
     print "Card detected"
   (status,backData) = MIFAREReader.MFRC522_Anticoll()
   if status == MIFAREReader.MI_OK:
-    strbackData = str(backData[0])+","+str(backData[1])+","+str(backData[2])+","+str(backData[3])+","+str(back$
+    strbackData = str(backData[0])+","+str(backData[1])+","+str(backData[2])+","+str(backData[3])+","+str(backData[4])
 
     print "Card read UID: " + strbackData
 
     # Do something (based on card and config file)
     TagToMplayer(strbackData)
-
